@@ -1,0 +1,15 @@
+learned from -- https://www.youtube.com/watch?v=pPEUhfTZswc&ab_channel=JamesWillett
+material for mkdocs -- https://squidfunk.github.io/mkdocs-material/
+
+go the main file and create a vertual environment and run the server
+    -- python -m venv venv
+    -- source venv/bin/activate
+
+then install all the requirements
+    -- pip install -r requirements.txt
+
+then use these commands
+    - `mkdocs new [dir-name]` - to create a new project.
+    - `mkdocs serve` - to start the live-reloading docs server.
+    - `mkdocs build` - to build the documentation site.
+    - `mkdocs -h` - to print help message and exit.
