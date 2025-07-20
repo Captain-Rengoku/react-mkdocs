@@ -117,7 +117,7 @@ markdown_extensions:
 extra:
   social:
     - icon: material/folder-account
-      link: https://www.linkedin.com/in/sourav183
+      link: https://souravkumardash.vercel.app
     - icon: material/linkedin
       link: https://www.linkedin.com/in/sourav183
     - icon: simple/github
