@@ -78,13 +78,18 @@ plugins:
 nav:
   - Home: index.md
   - React Docs: 
-    - Introduction to React: react/1.Introduction to React.md
-    - Setting Up the Environment: react/2.Setting Up the Environment.md
-    - Understanding jsx: react/3.Understanding jsx.md
-    - React Components: react/4.React Components.md
-    - State & Data Management: react/5.React State and Data Management.md
-    - Handling Events in React: react/6.Handling Events in React.md
-    - React Hooks: react/7.React Hooks.md
+    - 0.List of Content: react/react-list.md
+    - 1.Introduction to React: react/1.Introduction to React.md
+    - 2.Setting Up the Environment: react/2.Setting Up the Environment.md
+    - 3.Understanding jsx: react/3.Understanding jsx.md
+    - 4.React Components: react/4.React Components.md
+    - 5.State & Data Management: react/5.React State and Data Management.md
+    - 6.Handling Events in React: react/6.Handling Events in React.md
+    - 7.React Hooks: react/7.React Hooks.md
+    - Important Keywords: react/Important Keywords.md
+  - TypeScript Docs:
+    - 1.Introduction to TypeScript: ts/1.Introduction to TS.md
+    - 2.Setting Up the Environment: ts/2.Setting Up the Environment.md
   # - Blog:
     # - blog/index.md
   # - Tags: tags.md
