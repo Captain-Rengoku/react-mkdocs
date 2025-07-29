@@ -88,8 +88,11 @@ nav:
     - 7.React Hooks: react/7.React Hooks.md
     - Important Keywords: react/Important Keywords.md
   - TypeScript Docs:
+    - 0.List of Content: ts/ts-list.md
     - 1.Introduction to TypeScript: ts/1.Introduction to TS.md
-    - 2.Setting Up the Environment: ts/2.Setting Up the Environment.md
+    - 2.Basic Types and Type Inference, Annotations & Assertions: ts/2.Basic Types.md
+    - 3.Functions, Objects and Classes in TypeScript: ts/3.Functions Objects and Classes.md
+    - 4.Advanced Types: ts/4.Advanced Types.md
   # - Blog:
     # - blog/index.md
   # - Tags: tags.md
