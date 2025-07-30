@@ -29,7 +29,7 @@ date:
 - Type Inference
 - Type Annotations
 - Type Assertions (Casting)
-- `as` vs angle-bracket syntax
+- Type Casting `as` vs angle-bracket syntax
 
 ## 3. Functions, Objects and Classes in TypeScript
 
@@ -103,14 +103,14 @@ date:
 - Using DefinitelyTyped (`@types`)
 - Ambient Declarations
 
-## 11. TypeScript and JavaScript Interop
+## 8. TypeScript and JavaScript Interop
 
 - Type Checking JavaScript Files
 - `allowJs` and `checkJs`
 - Using JSDoc for Typing JS
 - Migrating from JS to TS
 
-## 12. Tooling & Configuration
+## 9. Tooling & Configuration
 
 - `tsconfig.json` Explained
 - Strict Mode Options
@@ -118,14 +118,14 @@ date:
 - Source Maps & Output Targets
 - Integrating with Babel, Webpack, Vite
 
-## 13. Working with Third-Party Libraries
+## 10. Working with Third-Party Libraries
 
 - Typing External Libraries
 - Using `@types` Packages
 - Handling Untyped Modules
 - Type Safety in APIs (like `axios`, `fetch`, etc.)
 
-## 14. React + TypeScript
+## 11. React + TypeScript
 
 - Typing Functional Components
 - Typing Props and State
@@ -133,20 +133,20 @@ date:
 - Custom Hooks with Generics
 - Context API with TypeScript
 
-## 15. Node.js + TypeScript
+## 12. Node.js + TypeScript
 
 - Setting up Node.js with TS
 - Typing Express Apps
 - Typing File System, Path, Process APIs
 - Writing CLI Apps with TS
 
-## 16. Testing in TypeScript
+## 13. Testing in TypeScript
 
 - TypeScript with Jest / Vitest
 - Typing Mocks and Stubs
 - Using `ts-jest` or other compilers
 
-## 17. Best Practices
+## 14. Best Practices
 
 - Avoiding `any`
 - Favoring `unknown` and `never`
@@ -154,21 +154,21 @@ date:
 - Consistent Naming Conventions
 - Linting with ESLint + TypeScript
 
-## 18. Troubleshooting and Debugging
+## 15. Troubleshooting and Debugging
 
 - Common Type Errors
 - Debugging with Source Maps
 - Using VSCode IntelliSense
 - Fixing Type Mismatches
 
-## 19. Advanced Topics
+## 16. Advanced Topics
 
 - Decorators in TypeScript
 - TypeScript Compiler API
 - AST Parsing and Transformation
 - Performance Considerations
 
-## 20. Appendix
+## 17. Appendix
 
 - Glossary of TypeScript Terms
 - Cheatsheet of Common Types

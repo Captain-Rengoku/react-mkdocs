@@ -93,6 +93,19 @@ nav:
     - 2.Basic Types and Type Inference, Annotations & Assertions: ts/2.Basic Types.md
     - 3.Functions, Objects and Classes in TypeScript: ts/3.Functions Objects and Classes.md
     - 4.Advanced Types: ts/4.Advanced Types.md
+    - 5.Generics: ts/5.Generics.md
+    - 6.Modules and Namespaces: ts/6.Modules and Namespaces.md
+    - 7.Declaration Files: ts/7.Declaration Files.md
+    - 8.TypeScript and JavaScript Interop: ts/8.TypeScript and JavaScript Interop.md
+    - 9.Tooling & Configuration: ts/9.Tooling & Configuration.md
+    - 10.Working with Third-Party Libraries: ts/10.Working with Third-Party Libraries.md
+    - 11.React + TypeScript: ts/11.React + TypeScript.md
+    - 12.Node.js + TypeScript: ts/12.Node.js + TypeScript.md
+    - 13.Testing in TypeScript: ts/13.Testing in TypeScript.md
+    - 14.Best Practices: ts/14.Best Practices.md
+    - 15.Troubleshooting and Debugging: ts/15.Troubleshooting and Debugging.md
+    - 16.Advanced Topics: ts/16.Advanced Topics.md
+    - 17.Appendix: ts/17.Appendix.md
   # - Blog:
     # - blog/index.md
   # - Tags: tags.md
