@@ -69,6 +69,7 @@ date:
 - Abstract Classes
 - Generics in Classes
 - Parameter Properties
+- Mixin in TypeScript
 
 ## 4. Advanced Types
 
@@ -129,7 +130,7 @@ date:
 
 - Typing Functional Components
 - Typing Props and State
-- `useState`, `useReducer`, and `useRef` Types
+- React Hooks with TypeScript
 - Custom Hooks with Generics
 - Context API with TypeScript
 
@@ -140,11 +141,12 @@ date:
 - Typing File System, Path, Process APIs
 - Writing CLI Apps with TS
 
-## 13. Testing in TypeScript
+## 13. Advanced Topics
 
-- TypeScript with Jest / Vitest
-- Typing Mocks and Stubs
-- Using `ts-jest` or other compilers
+- Decorators in TypeScript
+- TypeScript Compiler API
+- AST Parsing and Transformation
+- Performance Considerations
 
 ## 14. Best Practices
 
@@ -154,19 +156,18 @@ date:
 - Consistent Naming Conventions
 - Linting with ESLint + TypeScript
 
-## 15. Troubleshooting and Debugging
+## 15. Testing in TypeScript
+
+- TypeScript with Jest / Vitest
+- Typing Mocks and Stubs
+- Using `ts-jest` or other compilers
+
+## 16. Troubleshooting and Debugging
 
 - Common Type Errors
 - Debugging with Source Maps
 - Using VSCode IntelliSense
 - Fixing Type Mismatches
-
-## 16. Advanced Topics
-
-- Decorators in TypeScript
-- TypeScript Compiler API
-- AST Parsing and Transformation
-- Performance Considerations
 
 ## 17. Appendix
 

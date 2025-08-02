@@ -87,6 +87,7 @@ nav:
     - 6.Handling Events in React: react/6.Handling Events in React.md
     - 7.React Hooks: react/7.React Hooks.md
     - Important Keywords: react/Important Keywords.md
+    - React & Next Ecosystem: react/React & Next Ecosystem.md
   - TypeScript Docs:
     - 0.List of Content: ts/ts-list.md
     - 1.Introduction to TypeScript: ts/1.Introduction to TS.md
@@ -96,15 +97,17 @@ nav:
     - 5.Generics: ts/5.Generics.md
     - 6.Modules and Namespaces: ts/6.Modules and Namespaces.md
     - 7.Declaration Files: ts/7.Declaration Files.md
-    - 8.TypeScript and JavaScript Interop: ts/8.TypeScript and JavaScript Interop.md
+    - 8.TypeScript and JavaScript Interoperability: ts/8.TypeScript and JavaScript Interoperability.md
     - 9.Tooling & Configuration: ts/9.Tooling & Configuration.md
     - 10.Working with Third-Party Libraries: ts/10.Working with Third-Party Libraries.md
+    - 10.5.API and TypeScript: ts/10.5.API and TypeScript.md
     - 11.React + TypeScript: ts/11.React + TypeScript.md
+    - 11.5.React & Next.js Related TypeScript Types: ts/11.5.React & Next.js Related TypeScript Types.md
     - 12.Node.js + TypeScript: ts/12.Node.js + TypeScript.md
-    - 13.Testing in TypeScript: ts/13.Testing in TypeScript.md
+    - 13.Advanced Topics: ts/13.Advanced Topics.md
     - 14.Best Practices: ts/14.Best Practices.md
-    - 15.Troubleshooting and Debugging: ts/15.Troubleshooting and Debugging.md
-    - 16.Advanced Topics: ts/16.Advanced Topics.md
+    - 15.Testing in TypeScript: ts/15.Testing in TypeScript.md
+    - 16.Troubleshooting and Debugging: ts/16.Troubleshooting and Debugging.md
     - 17.Appendix: ts/17.Appendix.md
   # - Blog:
     # - blog/index.md
@@ -134,6 +137,11 @@ markdown_extensions:
           format: !!python/name:pymdownx.superfences.fence_code_format
   - md_in_html
   - pymdownx.blocks.caption
+  - pymdownx.critic
+  - pymdownx.caret
+  - pymdownx.keys
+  - pymdownx.mark
+  - pymdownx.tilde
 
 extra:
   social:
