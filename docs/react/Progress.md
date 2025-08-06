@@ -1,6 +1,6 @@
 ---
 date: 
-  created: 2024-11-06
+  created: 2025-01-08
 ---
 
 # Chapter Progress
@@ -17,7 +17,7 @@ date:
 6. ✅ Handling Events in React  
 7. 🟡 React Hooks (Fundamentals & Advanced)  
 8. ❌ React Forms and Form Handling  
-9. 🟡 React Router (Navigation in React)  
+9. ✅ React Router (Navigation in React)  
 10. 🟡 State Management in React  
 11. ❌ React Styling Techniques  
 12. ❌ React Performance Optimization  

@@ -86,6 +86,8 @@ nav:
     - 5.State & Data Management: react/5.React State and Data Management.md
     - 6.Handling Events in React: react/6.Handling Events in React.md
     - 7.React Hooks: react/7.React Hooks.md
+    - 9.React Router: react/9.React Router.md
+    - 14.API Calls in React: react/14.API Calls in React.md
     - Important Keywords: react/Important Keywords.md
     - React & Next Ecosystem: react/React & Next Ecosystem.md
     - Progress: react/Progress.md
