@@ -1,0 +1,3865 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+        <link rel="canonical" href="https://stiename.example/react/react-list/">
+      
+      
+        <link rel="prev" href="../..">
+      
+      
+        <link rel="next" href="../1.Introduction%20to%20React/">
+      
+      
+      <link rel="icon" href="../../assets/code-solid-full.svg">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.6.16">
+    
+    
+      
+        <title>0.List of Content - My Frontend Guide</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.7e37652d.min.css">
+      
+        
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.06af60db.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Merriweather+Sans:300,300i,400,400i,700,700i%7CRed+Hat+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Merriweather Sans";--md-code-font:"Red Hat Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+   <link href="../../assets/stylesheets/glightbox.min.css" rel="stylesheet"/><style>
+    html.glightbox-open { overflow: initial; height: 100%; }
+    .gslide-title { margin-top: 0px; user-select: text; }
+    .gslide-desc { color: #666; user-select: text; }
+    .gslide-image img { background: white; }
+    .gscrollbar-fixer { padding-right: 15px; }
+    .gdesc-inner { font-size: 0.75rem; }
+    body[data-md-color-scheme="slate"] .gdesc-inner { background: var(--md-default-bg-color);}
+    body[data-md-color-scheme="slate"] .gslide-title { color: var(--md-default-fg-color);}
+    body[data-md-color-scheme="slate"] .gslide-desc { color: var(--md-default-fg-color);}</style> <script src="../../assets/javascripts/glightbox.min.js"></script></head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="slate" data-md-color-primary="teal" data-md-color-accent="deep-orange">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#comprehensive-reactjs" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow md-header--lifted" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../.." title="My Frontend Guide" class="md-header__button md-logo" aria-label="My Frontend Guide" data-md-component="logo">
+      
+  <img src="../../assets/code-solid-full.svg" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            My Frontend Guide
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              0.List of Content
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="slate" data-md-color-primary="teal" data-md-color-accent="deep-orange"  aria-label="Dark mode"  type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="Dark mode" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 18c-.89 0-1.74-.2-2.5-.55C11.56 16.5 13 14.42 13 12s-1.44-4.5-3.5-5.45C10.26 6.2 11.11 6 12 6a6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="teal"  aria-label="Light mode"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Light mode" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a4 4 0 0 0-4 4 4 4 0 0 0 4 4 4 4 0 0 0 4-4 4 4 0 0 0-4-4m0 10a6 6 0 0 1-6-6 6 6 0 0 1 6-6 6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"/></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+          <a href="javascript:void(0)" class="md-search__icon md-icon" title="Share" aria-label="Share" data-clipboard data-clipboard-text="" data-md-component="search-share" tabindex="-1">
+            
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M18 16.08c-.76 0-1.44.3-1.96.77L8.91 12.7c.05-.23.09-.46.09-.7s-.04-.47-.09-.7l7.05-4.11c.54.5 1.25.81 2.04.81a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3c0 .24.04.47.09.7L8.04 9.81C7.5 9.31 6.79 9 6 9a3 3 0 0 0-3 3 3 3 0 0 0 3 3c.79 0 1.5-.31 2.04-.81l7.12 4.15c-.05.21-.08.43-.08.66 0 1.61 1.31 2.91 2.92 2.91s2.92-1.3 2.92-2.91A2.92 2.92 0 0 0 18 16.08"/></svg>
+          </a>
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+        <div class="md-search__suggest" data-md-component="search-suggest"></div>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+  </nav>
+  
+    
+      
+<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../.." class="md-tabs__link">
+        
+  
+  
+    
+  
+  Home
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+    
+  
+  
+    
+    
+      <li class="md-tabs__item md-tabs__item--active">
+        <a href="./" class="md-tabs__link">
+          
+  
+  
+    
+  
+  React Docs
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../ts/ts-list/" class="md-tabs__link">
+          
+  
+  
+    
+  
+  TypeScript Docs
+
+        </a>
+      </li>
+    
+  
+
+      
+    </ul>
+  </div>
+</nav>
+    
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+  
+
+
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="My Frontend Guide" class="md-nav__button md-logo" aria-label="My Frontend Guide" data-md-component="logo">
+      
+  <img src="../../assets/code-solid-full.svg" alt="logo">
+
+    </a>
+    My Frontend Guide
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Home
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+        
+        
+      
+      
+        
+      
+    
+    
+      
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    React Docs
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            React Docs
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    0.List of Content
+    
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    0.List of Content
+    
+  </span>
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#1-introduction-to-react" class="md-nav__link">
+    <span class="md-ellipsis">
+      1. Introduction to React
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2-setting-up-the-environment" class="md-nav__link">
+    <span class="md-ellipsis">
+      2. Setting Up the Environment
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#3-understanding-jsx-javascript-xml" class="md-nav__link">
+    <span class="md-ellipsis">
+      3. Understanding JSX (JavaScript XML)
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#4-react-components" class="md-nav__link">
+    <span class="md-ellipsis">
+      4. React Components
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#5-react-state-and-data-management" class="md-nav__link">
+    <span class="md-ellipsis">
+      5. React State and Data Management
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#6-handling-events-in-react" class="md-nav__link">
+    <span class="md-ellipsis">
+      6. Handling Events in React
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#7-react-hooks-fundamentals-advanced" class="md-nav__link">
+    <span class="md-ellipsis">
+      7. React Hooks (Fundamentals &amp; Advanced)
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#8-react-forms-and-form-handling" class="md-nav__link">
+    <span class="md-ellipsis">
+      8. React Forms and Form Handling
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#9-react-router-navigation-in-react" class="md-nav__link">
+    <span class="md-ellipsis">
+      9. React Router (Navigation in React)
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#10-state-management-in-react" class="md-nav__link">
+    <span class="md-ellipsis">
+      10. State Management in React
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="10. State Management in React">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#1-context-api-and-usecontext-hook" class="md-nav__link">
+    <span class="md-ellipsis">
+      1. Context API and useContext Hook
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2-when-to-use-context-api-vs-other-solutions" class="md-nav__link">
+    <span class="md-ellipsis">
+      2. When to Use Context API vs Other Solutions
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#3-prop-drilling-vs-context-api" class="md-nav__link">
+    <span class="md-ellipsis">
+      3. Prop Drilling vs Context API
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#4-redux-state-management" class="md-nav__link">
+    <span class="md-ellipsis">
+      4. Redux (State Management)
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="4. Redux (State Management)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#41-introduction-to-redux" class="md-nav__link">
+    <span class="md-ellipsis">
+      4.1 Introduction to Redux
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#42-redux-store-actions-and-reducers" class="md-nav__link">
+    <span class="md-ellipsis">
+      4.2 Redux Store, Actions, and Reducers
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#43-connecting-redux-with-react" class="md-nav__link">
+    <span class="md-ellipsis">
+      4.3 Connecting Redux with React
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#44-middleware-in-redux-redux-thunk-redux-saga" class="md-nav__link">
+    <span class="md-ellipsis">
+      4.4 Middleware in Redux (Redux Thunk &amp; Redux Saga)
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#5-zustand-recoil-alternative-state-management" class="md-nav__link">
+    <span class="md-ellipsis">
+      5. Zustand &amp; Recoil (Alternative State Management)
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="5. Zustand &amp; Recoil (Alternative State Management)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#51-zustand" class="md-nav__link">
+    <span class="md-ellipsis">
+      5.1 Zustand
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#52-recoil" class="md-nav__link">
+    <span class="md-ellipsis">
+      5.2 Recoil
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#6-mobx-for-state-management" class="md-nav__link">
+    <span class="md-ellipsis">
+      6. MobX for State Management
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#11-react-styling-techniques" class="md-nav__link">
+    <span class="md-ellipsis">
+      11. React Styling Techniques
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="11. React Styling Techniques">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#1-css-in-react" class="md-nav__link">
+    <span class="md-ellipsis">
+      1. CSS in React
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2-styled-components-css-in-js" class="md-nav__link">
+    <span class="md-ellipsis">
+      2. Styled Components (CSS-in-JS)
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#3-tailwind-css-with-react" class="md-nav__link">
+    <span class="md-ellipsis">
+      3. Tailwind CSS with React
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#4-emotionjs-for-css-in-js" class="md-nav__link">
+    <span class="md-ellipsis">
+      4. Emotion.js for CSS-in-JS
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#5-bootstrap-material-ui-with-react" class="md-nav__link">
+    <span class="md-ellipsis">
+      5. Bootstrap &amp; Material UI with React
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#12-react-performance-optimization" class="md-nav__link">
+    <span class="md-ellipsis">
+      12. React Performance Optimization
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="12. React Performance Optimization">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#1-reactmemo-for-component-optimization" class="md-nav__link">
+    <span class="md-ellipsis">
+      1. React.memo for Component Optimization
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2-usecallback-usememo-hooks" class="md-nav__link">
+    <span class="md-ellipsis">
+      2. useCallback &amp; useMemo Hooks
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#3-lazy-loading-react-suspense" class="md-nav__link">
+    <span class="md-ellipsis">
+      3. Lazy Loading &amp; React Suspense
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#4-code-splitting-dynamic-imports" class="md-nav__link">
+    <span class="md-ellipsis">
+      4. Code Splitting &amp; Dynamic Imports
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#5-avoiding-unnecessary-re-renders" class="md-nav__link">
+    <span class="md-ellipsis">
+      5. Avoiding Unnecessary Re-renders
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#6-virtualization-with-react-virtualized" class="md-nav__link">
+    <span class="md-ellipsis">
+      6. Virtualization with React Virtualized
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#13-react-server-side-rendering-ssr-static-site-generation-ssg" class="md-nav__link">
+    <span class="md-ellipsis">
+      13. React Server-Side Rendering (SSR) &amp; Static Site Generation (SSG)
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="13. React Server-Side Rendering (SSR) &amp; Static Site Generation (SSG)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#1-introduction-to-ssr-ssg" class="md-nav__link">
+    <span class="md-ellipsis">
+      1. Introduction to SSR &amp; SSG
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2-benefits-of-ssr-and-ssg" class="md-nav__link">
+    <span class="md-ellipsis">
+      2. Benefits of SSR and SSG
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#3-implementing-ssr-with-nextjs" class="md-nav__link">
+    <span class="md-ellipsis">
+      3. Implementing SSR with Next.js
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#4-static-site-generation-ssg-with-nextjs" class="md-nav__link">
+    <span class="md-ellipsis">
+      4. Static Site Generation (SSG) with Next.js
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#5-api-routes-in-nextjs" class="md-nav__link">
+    <span class="md-ellipsis">
+      5. API Routes in Next.js
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#14-api-calls-in-react" class="md-nav__link">
+    <span class="md-ellipsis">
+      14. API Calls in React
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="14. API Calls in React">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#1-fetch-api-vs-axios-for-http-requests" class="md-nav__link">
+    <span class="md-ellipsis">
+      1. Fetch API vs Axios for HTTP Requests
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2-handling-promises-asyncawait" class="md-nav__link">
+    <span class="md-ellipsis">
+      2. Handling Promises &amp; Async/Await
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#3-useeffect-with-api-calls" class="md-nav__link">
+    <span class="md-ellipsis">
+      3. useEffect with API Calls
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#4-handling-api-errors-and-loading-states" class="md-nav__link">
+    <span class="md-ellipsis">
+      4. Handling API Errors and Loading States
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#5-caching-api-responses-with-swr-and-react-query" class="md-nav__link">
+    <span class="md-ellipsis">
+      5. Caching API Responses with SWR and React Query
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#6-working-with-graphql-apis-in-react-apollo-client" class="md-nav__link">
+    <span class="md-ellipsis">
+      6. Working with GraphQL APIs in React (Apollo Client)
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#15-react-and-authentication" class="md-nav__link">
+    <span class="md-ellipsis">
+      15. React and Authentication
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="15. React and Authentication">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#1-authentication-strategies-jwt-oauth-firebase-auth" class="md-nav__link">
+    <span class="md-ellipsis">
+      1. Authentication Strategies (JWT, OAuth, Firebase Auth)
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2-implementing-user-authentication-in-react" class="md-nav__link">
+    <span class="md-ellipsis">
+      2. Implementing User Authentication in React
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#3-using-firebase-authentication" class="md-nav__link">
+    <span class="md-ellipsis">
+      3. Using Firebase Authentication
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#4-session-management-cookies" class="md-nav__link">
+    <span class="md-ellipsis">
+      4. Session Management &amp; Cookies
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#5-role-based-access-control-rbac" class="md-nav__link">
+    <span class="md-ellipsis">
+      5. Role-Based Access Control (RBAC)
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#6-oauth2-authentication-google-facebook-github-login" class="md-nav__link">
+    <span class="md-ellipsis">
+      6. OAuth2 Authentication (Google, Facebook, GitHub Login)
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#16-react-testing-and-debugging" class="md-nav__link">
+    <span class="md-ellipsis">
+      16. React Testing and Debugging
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="16. React Testing and Debugging">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#introduction-to-testing-in-react" class="md-nav__link">
+    <span class="md-ellipsis">
+      Introduction to Testing in React
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#unit-testing-with-jest" class="md-nav__link">
+    <span class="md-ellipsis">
+      Unit Testing with Jest
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#react-testing-library" class="md-nav__link">
+    <span class="md-ellipsis">
+      React Testing Library
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#enzyme-for-component-testing" class="md-nav__link">
+    <span class="md-ellipsis">
+      Enzyme for Component Testing
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#end-to-end-e2e-testing-with-cypress" class="md-nav__link">
+    <span class="md-ellipsis">
+      End-to-End (E2E) Testing with Cypress
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#debugging-react-applications-with-react-developer-tools" class="md-nav__link">
+    <span class="md-ellipsis">
+      Debugging React Applications with React Developer Tools
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#17-websockets-and-real-time-applications" class="md-nav__link">
+    <span class="md-ellipsis">
+      17. WebSockets and Real-Time Applications
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="17. WebSockets and Real-Time Applications">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#introduction-to-websockets" class="md-nav__link">
+    <span class="md-ellipsis">
+      Introduction to WebSockets
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#integrating-socketio-with-react" class="md-nav__link">
+    <span class="md-ellipsis">
+      Integrating Socket.io with React
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#building-a-real-time-chat-app-with-websockets" class="md-nav__link">
+    <span class="md-ellipsis">
+      Building a Real-time Chat App with WebSockets
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#websocket-events-and-state-management" class="md-nav__link">
+    <span class="md-ellipsis">
+      WebSocket Events and State Management
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#polling-vs-websockets-vs-server-sent-events-sse" class="md-nav__link">
+    <span class="md-ellipsis">
+      Polling vs WebSockets vs Server-Sent Events (SSE)
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#18-react-progressive-web-apps-pwas" class="md-nav__link">
+    <span class="md-ellipsis">
+      18. React Progressive Web Apps (PWAs)
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="18. React Progressive Web Apps (PWAs)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#what-are-pwas" class="md-nav__link">
+    <span class="md-ellipsis">
+      What are PWAs?
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#adding-service-workers-in-react" class="md-nav__link">
+    <span class="md-ellipsis">
+      Adding Service Workers in React
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#offline-support-in-react-apps" class="md-nav__link">
+    <span class="md-ellipsis">
+      Offline Support in React Apps
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#caching-and-background-sync" class="md-nav__link">
+    <span class="md-ellipsis">
+      Caching and Background Sync
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#web-push-notifications-in-react" class="md-nav__link">
+    <span class="md-ellipsis">
+      Web Push Notifications in React
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#19-react-native-mobile-development-with-react" class="md-nav__link">
+    <span class="md-ellipsis">
+      19. React Native (Mobile Development with React)
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="19. React Native (Mobile Development with React)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#introduction-to-react-native" class="md-nav__link">
+    <span class="md-ellipsis">
+      Introduction to React Native
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#react-native-vs-reactjs" class="md-nav__link">
+    <span class="md-ellipsis">
+      React Native vs React.js
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#setting-up-react-native-environment" class="md-nav__link">
+    <span class="md-ellipsis">
+      Setting up React Native Environment
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#building-components-in-react-native" class="md-nav__link">
+    <span class="md-ellipsis">
+      Building Components in React Native
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#react-navigation-for-mobile-apps" class="md-nav__link">
+    <span class="md-ellipsis">
+      React Navigation for Mobile Apps
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#expo-vs-react-native-cli" class="md-nav__link">
+    <span class="md-ellipsis">
+      Expo vs React Native CLI
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#20-react-deployment-and-devops" class="md-nav__link">
+    <span class="md-ellipsis">
+      20. React Deployment and DevOps
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="20. React Deployment and DevOps">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#deploying-react-apps-on-vercel-netlify" class="md-nav__link">
+    <span class="md-ellipsis">
+      Deploying React Apps on Vercel &amp; Netlify
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#deploying-react-apps-on-firebase-hosting" class="md-nav__link">
+    <span class="md-ellipsis">
+      Deploying React Apps on Firebase Hosting
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#deploying-react-apps-on-aws-amplify" class="md-nav__link">
+    <span class="md-ellipsis">
+      Deploying React Apps on AWS Amplify
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#cicd-with-github-actions-for-react" class="md-nav__link">
+    <span class="md-ellipsis">
+      CI/CD with GitHub Actions for React
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#dockerizing-a-react-application" class="md-nav__link">
+    <span class="md-ellipsis">
+      Dockerizing a React Application
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#performance-monitoring-with-lighthouse" class="md-nav__link">
+    <span class="md-ellipsis">
+      Performance Monitoring with Lighthouse
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#21-advanced-react-topics" class="md-nav__link">
+    <span class="md-ellipsis">
+      21. Advanced React Topics
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="21. Advanced React Topics">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#micro-frontends-with-react" class="md-nav__link">
+    <span class="md-ellipsis">
+      Micro Frontends with React
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#server-components-in-react-react-18" class="md-nav__link">
+    <span class="md-ellipsis">
+      Server Components in React (React 18+)
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#react-fiber-architecture" class="md-nav__link">
+    <span class="md-ellipsis">
+      React Fiber Architecture
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#webassembly-with-react" class="md-nav__link">
+    <span class="md-ellipsis">
+      WebAssembly with React
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ai-machine-learning-with-reactjs" class="md-nav__link">
+    <span class="md-ellipsis">
+      AI &amp; Machine Learning with React.js
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#react-concurrent-mode-suspense-for-data-fetching" class="md-nav__link">
+    <span class="md-ellipsis">
+      React Concurrent Mode &amp; Suspense for Data Fetching
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../1.Introduction%20to%20React/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    1.Introduction to React
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../2.Setting%20Up%20the%20Environment/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    2.Setting Up the Environment
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../3.Understanding%20jsx/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    3.Understanding jsx
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../4.React%20Components/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    4.React Components
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../5.React%20State%20and%20Data%20Management/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    5.State & Data Management
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../6.Handling%20Events%20in%20React/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    6.Handling Events in React
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../7.React%20Hooks/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    7.React Hooks
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../9.React%20Router/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    9.React Router
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../14.API%20Calls%20in%20React/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    14.API Calls in React
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Important%20Keywords/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Important Keywords
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../React%20%26%20Next%20Ecosystem/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    React & Next Ecosystem
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Progress/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Progress
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+        
+      
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+  
+    <a href="../../ts/ts-list/" class="md-nav__link">
+      
+  
+  
+  <span class="md-ellipsis">
+    TypeScript Docs
+    
+  </span>
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#1-introduction-to-react" class="md-nav__link">
+    <span class="md-ellipsis">
+      1. Introduction to React
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2-setting-up-the-environment" class="md-nav__link">
+    <span class="md-ellipsis">
+      2. Setting Up the Environment
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#3-understanding-jsx-javascript-xml" class="md-nav__link">
+    <span class="md-ellipsis">
+      3. Understanding JSX (JavaScript XML)
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#4-react-components" class="md-nav__link">
+    <span class="md-ellipsis">
+      4. React Components
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#5-react-state-and-data-management" class="md-nav__link">
+    <span class="md-ellipsis">
+      5. React State and Data Management
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#6-handling-events-in-react" class="md-nav__link">
+    <span class="md-ellipsis">
+      6. Handling Events in React
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#7-react-hooks-fundamentals-advanced" class="md-nav__link">
+    <span class="md-ellipsis">
+      7. React Hooks (Fundamentals &amp; Advanced)
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#8-react-forms-and-form-handling" class="md-nav__link">
+    <span class="md-ellipsis">
+      8. React Forms and Form Handling
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#9-react-router-navigation-in-react" class="md-nav__link">
+    <span class="md-ellipsis">
+      9. React Router (Navigation in React)
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#10-state-management-in-react" class="md-nav__link">
+    <span class="md-ellipsis">
+      10. State Management in React
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="10. State Management in React">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#1-context-api-and-usecontext-hook" class="md-nav__link">
+    <span class="md-ellipsis">
+      1. Context API and useContext Hook
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2-when-to-use-context-api-vs-other-solutions" class="md-nav__link">
+    <span class="md-ellipsis">
+      2. When to Use Context API vs Other Solutions
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#3-prop-drilling-vs-context-api" class="md-nav__link">
+    <span class="md-ellipsis">
+      3. Prop Drilling vs Context API
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#4-redux-state-management" class="md-nav__link">
+    <span class="md-ellipsis">
+      4. Redux (State Management)
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="4. Redux (State Management)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#41-introduction-to-redux" class="md-nav__link">
+    <span class="md-ellipsis">
+      4.1 Introduction to Redux
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#42-redux-store-actions-and-reducers" class="md-nav__link">
+    <span class="md-ellipsis">
+      4.2 Redux Store, Actions, and Reducers
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#43-connecting-redux-with-react" class="md-nav__link">
+    <span class="md-ellipsis">
+      4.3 Connecting Redux with React
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#44-middleware-in-redux-redux-thunk-redux-saga" class="md-nav__link">
+    <span class="md-ellipsis">
+      4.4 Middleware in Redux (Redux Thunk &amp; Redux Saga)
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#5-zustand-recoil-alternative-state-management" class="md-nav__link">
+    <span class="md-ellipsis">
+      5. Zustand &amp; Recoil (Alternative State Management)
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="5. Zustand &amp; Recoil (Alternative State Management)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#51-zustand" class="md-nav__link">
+    <span class="md-ellipsis">
+      5.1 Zustand
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#52-recoil" class="md-nav__link">
+    <span class="md-ellipsis">
+      5.2 Recoil
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#6-mobx-for-state-management" class="md-nav__link">
+    <span class="md-ellipsis">
+      6. MobX for State Management
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#11-react-styling-techniques" class="md-nav__link">
+    <span class="md-ellipsis">
+      11. React Styling Techniques
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="11. React Styling Techniques">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#1-css-in-react" class="md-nav__link">
+    <span class="md-ellipsis">
+      1. CSS in React
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2-styled-components-css-in-js" class="md-nav__link">
+    <span class="md-ellipsis">
+      2. Styled Components (CSS-in-JS)
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#3-tailwind-css-with-react" class="md-nav__link">
+    <span class="md-ellipsis">
+      3. Tailwind CSS with React
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#4-emotionjs-for-css-in-js" class="md-nav__link">
+    <span class="md-ellipsis">
+      4. Emotion.js for CSS-in-JS
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#5-bootstrap-material-ui-with-react" class="md-nav__link">
+    <span class="md-ellipsis">
+      5. Bootstrap &amp; Material UI with React
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#12-react-performance-optimization" class="md-nav__link">
+    <span class="md-ellipsis">
+      12. React Performance Optimization
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="12. React Performance Optimization">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#1-reactmemo-for-component-optimization" class="md-nav__link">
+    <span class="md-ellipsis">
+      1. React.memo for Component Optimization
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2-usecallback-usememo-hooks" class="md-nav__link">
+    <span class="md-ellipsis">
+      2. useCallback &amp; useMemo Hooks
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#3-lazy-loading-react-suspense" class="md-nav__link">
+    <span class="md-ellipsis">
+      3. Lazy Loading &amp; React Suspense
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#4-code-splitting-dynamic-imports" class="md-nav__link">
+    <span class="md-ellipsis">
+      4. Code Splitting &amp; Dynamic Imports
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#5-avoiding-unnecessary-re-renders" class="md-nav__link">
+    <span class="md-ellipsis">
+      5. Avoiding Unnecessary Re-renders
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#6-virtualization-with-react-virtualized" class="md-nav__link">
+    <span class="md-ellipsis">
+      6. Virtualization with React Virtualized
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#13-react-server-side-rendering-ssr-static-site-generation-ssg" class="md-nav__link">
+    <span class="md-ellipsis">
+      13. React Server-Side Rendering (SSR) &amp; Static Site Generation (SSG)
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="13. React Server-Side Rendering (SSR) &amp; Static Site Generation (SSG)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#1-introduction-to-ssr-ssg" class="md-nav__link">
+    <span class="md-ellipsis">
+      1. Introduction to SSR &amp; SSG
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2-benefits-of-ssr-and-ssg" class="md-nav__link">
+    <span class="md-ellipsis">
+      2. Benefits of SSR and SSG
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#3-implementing-ssr-with-nextjs" class="md-nav__link">
+    <span class="md-ellipsis">
+      3. Implementing SSR with Next.js
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#4-static-site-generation-ssg-with-nextjs" class="md-nav__link">
+    <span class="md-ellipsis">
+      4. Static Site Generation (SSG) with Next.js
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#5-api-routes-in-nextjs" class="md-nav__link">
+    <span class="md-ellipsis">
+      5. API Routes in Next.js
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#14-api-calls-in-react" class="md-nav__link">
+    <span class="md-ellipsis">
+      14. API Calls in React
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="14. API Calls in React">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#1-fetch-api-vs-axios-for-http-requests" class="md-nav__link">
+    <span class="md-ellipsis">
+      1. Fetch API vs Axios for HTTP Requests
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2-handling-promises-asyncawait" class="md-nav__link">
+    <span class="md-ellipsis">
+      2. Handling Promises &amp; Async/Await
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#3-useeffect-with-api-calls" class="md-nav__link">
+    <span class="md-ellipsis">
+      3. useEffect with API Calls
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#4-handling-api-errors-and-loading-states" class="md-nav__link">
+    <span class="md-ellipsis">
+      4. Handling API Errors and Loading States
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#5-caching-api-responses-with-swr-and-react-query" class="md-nav__link">
+    <span class="md-ellipsis">
+      5. Caching API Responses with SWR and React Query
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#6-working-with-graphql-apis-in-react-apollo-client" class="md-nav__link">
+    <span class="md-ellipsis">
+      6. Working with GraphQL APIs in React (Apollo Client)
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#15-react-and-authentication" class="md-nav__link">
+    <span class="md-ellipsis">
+      15. React and Authentication
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="15. React and Authentication">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#1-authentication-strategies-jwt-oauth-firebase-auth" class="md-nav__link">
+    <span class="md-ellipsis">
+      1. Authentication Strategies (JWT, OAuth, Firebase Auth)
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2-implementing-user-authentication-in-react" class="md-nav__link">
+    <span class="md-ellipsis">
+      2. Implementing User Authentication in React
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#3-using-firebase-authentication" class="md-nav__link">
+    <span class="md-ellipsis">
+      3. Using Firebase Authentication
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#4-session-management-cookies" class="md-nav__link">
+    <span class="md-ellipsis">
+      4. Session Management &amp; Cookies
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#5-role-based-access-control-rbac" class="md-nav__link">
+    <span class="md-ellipsis">
+      5. Role-Based Access Control (RBAC)
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#6-oauth2-authentication-google-facebook-github-login" class="md-nav__link">
+    <span class="md-ellipsis">
+      6. OAuth2 Authentication (Google, Facebook, GitHub Login)
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#16-react-testing-and-debugging" class="md-nav__link">
+    <span class="md-ellipsis">
+      16. React Testing and Debugging
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="16. React Testing and Debugging">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#introduction-to-testing-in-react" class="md-nav__link">
+    <span class="md-ellipsis">
+      Introduction to Testing in React
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#unit-testing-with-jest" class="md-nav__link">
+    <span class="md-ellipsis">
+      Unit Testing with Jest
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#react-testing-library" class="md-nav__link">
+    <span class="md-ellipsis">
+      React Testing Library
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#enzyme-for-component-testing" class="md-nav__link">
+    <span class="md-ellipsis">
+      Enzyme for Component Testing
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#end-to-end-e2e-testing-with-cypress" class="md-nav__link">
+    <span class="md-ellipsis">
+      End-to-End (E2E) Testing with Cypress
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#debugging-react-applications-with-react-developer-tools" class="md-nav__link">
+    <span class="md-ellipsis">
+      Debugging React Applications with React Developer Tools
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#17-websockets-and-real-time-applications" class="md-nav__link">
+    <span class="md-ellipsis">
+      17. WebSockets and Real-Time Applications
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="17. WebSockets and Real-Time Applications">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#introduction-to-websockets" class="md-nav__link">
+    <span class="md-ellipsis">
+      Introduction to WebSockets
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#integrating-socketio-with-react" class="md-nav__link">
+    <span class="md-ellipsis">
+      Integrating Socket.io with React
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#building-a-real-time-chat-app-with-websockets" class="md-nav__link">
+    <span class="md-ellipsis">
+      Building a Real-time Chat App with WebSockets
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#websocket-events-and-state-management" class="md-nav__link">
+    <span class="md-ellipsis">
+      WebSocket Events and State Management
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#polling-vs-websockets-vs-server-sent-events-sse" class="md-nav__link">
+    <span class="md-ellipsis">
+      Polling vs WebSockets vs Server-Sent Events (SSE)
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#18-react-progressive-web-apps-pwas" class="md-nav__link">
+    <span class="md-ellipsis">
+      18. React Progressive Web Apps (PWAs)
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="18. React Progressive Web Apps (PWAs)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#what-are-pwas" class="md-nav__link">
+    <span class="md-ellipsis">
+      What are PWAs?
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#adding-service-workers-in-react" class="md-nav__link">
+    <span class="md-ellipsis">
+      Adding Service Workers in React
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#offline-support-in-react-apps" class="md-nav__link">
+    <span class="md-ellipsis">
+      Offline Support in React Apps
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#caching-and-background-sync" class="md-nav__link">
+    <span class="md-ellipsis">
+      Caching and Background Sync
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#web-push-notifications-in-react" class="md-nav__link">
+    <span class="md-ellipsis">
+      Web Push Notifications in React
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#19-react-native-mobile-development-with-react" class="md-nav__link">
+    <span class="md-ellipsis">
+      19. React Native (Mobile Development with React)
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="19. React Native (Mobile Development with React)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#introduction-to-react-native" class="md-nav__link">
+    <span class="md-ellipsis">
+      Introduction to React Native
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#react-native-vs-reactjs" class="md-nav__link">
+    <span class="md-ellipsis">
+      React Native vs React.js
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#setting-up-react-native-environment" class="md-nav__link">
+    <span class="md-ellipsis">
+      Setting up React Native Environment
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#building-components-in-react-native" class="md-nav__link">
+    <span class="md-ellipsis">
+      Building Components in React Native
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#react-navigation-for-mobile-apps" class="md-nav__link">
+    <span class="md-ellipsis">
+      React Navigation for Mobile Apps
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#expo-vs-react-native-cli" class="md-nav__link">
+    <span class="md-ellipsis">
+      Expo vs React Native CLI
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#20-react-deployment-and-devops" class="md-nav__link">
+    <span class="md-ellipsis">
+      20. React Deployment and DevOps
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="20. React Deployment and DevOps">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#deploying-react-apps-on-vercel-netlify" class="md-nav__link">
+    <span class="md-ellipsis">
+      Deploying React Apps on Vercel &amp; Netlify
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#deploying-react-apps-on-firebase-hosting" class="md-nav__link">
+    <span class="md-ellipsis">
+      Deploying React Apps on Firebase Hosting
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#deploying-react-apps-on-aws-amplify" class="md-nav__link">
+    <span class="md-ellipsis">
+      Deploying React Apps on AWS Amplify
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#cicd-with-github-actions-for-react" class="md-nav__link">
+    <span class="md-ellipsis">
+      CI/CD with GitHub Actions for React
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#dockerizing-a-react-application" class="md-nav__link">
+    <span class="md-ellipsis">
+      Dockerizing a React Application
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#performance-monitoring-with-lighthouse" class="md-nav__link">
+    <span class="md-ellipsis">
+      Performance Monitoring with Lighthouse
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#21-advanced-react-topics" class="md-nav__link">
+    <span class="md-ellipsis">
+      21. Advanced React Topics
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="21. Advanced React Topics">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#micro-frontends-with-react" class="md-nav__link">
+    <span class="md-ellipsis">
+      Micro Frontends with React
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#server-components-in-react-react-18" class="md-nav__link">
+    <span class="md-ellipsis">
+      Server Components in React (React 18+)
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#react-fiber-architecture" class="md-nav__link">
+    <span class="md-ellipsis">
+      React Fiber Architecture
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#webassembly-with-react" class="md-nav__link">
+    <span class="md-ellipsis">
+      WebAssembly with React
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ai-machine-learning-with-reactjs" class="md-nav__link">
+    <span class="md-ellipsis">
+      AI &amp; Machine Learning with React.js
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#react-concurrent-mode-suspense-for-data-fetching" class="md-nav__link">
+    <span class="md-ellipsis">
+      React Concurrent Mode &amp; Suspense for Data Fetching
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+
+<h1 id="comprehensive-reactjs">Comprehensive React.js</h1>
+<h2 id="1-introduction-to-react"><ins class="critic">1. Introduction to React</ins></h2>
+<ul>
+<li><mark class="critic">What is React?</mark><ul>
+<li>History and Evolution</li>
+<li>Core Philosophy of React</li>
+<li>Open-Source Community and Contributions</li>
+</ul>
+</li>
+<li><mark class="critic">Features and Benefits of React</mark><ul>
+<li>Declarative UI</li>
+<li>Component-Based Architecture</li>
+<li>Unidirectional Data Flow</li>
+<li>React Fiber Architecture</li>
+<li>JSX for Templating</li>
+</ul>
+</li>
+<li><mark class="critic">React vs Other JavaScript Frameworks</mark><ul>
+<li>Comparison with Angular, Vue, Svelte</li>
+<li>Pros and Cons</li>
+<li>When to Choose React Over Others</li>
+</ul>
+</li>
+<li><mark class="critic">Understanding Virtual DOM vs Real DOM</mark><ul>
+<li>How Virtual DOM Works</li>
+<li>Performance Benefits</li>
+<li>Diffing Algorithm in React</li>
+</ul>
+</li>
+<li><mark class="critic">React Ecosystem Overview</mark><ul>
+<li>React, ReactDOM, React Native, Next.js</li>
+<li>Key Libraries and Tools (Redux, React Router, Material UI, etc.)</li>
+<li>Server Components vs Client Components</li>
+</ul>
+</li>
+</ul>
+<h2 id="2-setting-up-the-environment"><ins class="critic">2. Setting Up the Environment</ins></h2>
+<ul>
+<li><mark class="critic">Installing Node.js &amp; npm</mark><ul>
+<li>Downloading and Installing Node.js</li>
+<li>Verifying Installation</li>
+<li>Understanding Node.js Package Manager (npm)</li>
+</ul>
+</li>
+<li><mark class="critic">Installing Yarn (Alternative Package Manager)</mark><ul>
+<li>npm vs Yarn</li>
+<li>Setting Up Yarn</li>
+<li>Using pnpm as an Alternative</li>
+</ul>
+</li>
+<li><mark class="critic">Creating a React App using CRA (Create React App)</mark><ul>
+<li>Creating and Running a New Project</li>
+<li>Understanding Default Folder Structure</li>
+<li>Customizing CRA Configuration</li>
+</ul>
+</li>
+<li><mark class="critic">Project Structure of a React App</mark><ul>
+<li>src, public, node_modules, package.json Explained</li>
+<li>Organizing Components, Hooks, and Utilities</li>
+<li>Best Practices for Folder Structure</li>
+</ul>
+</li>
+<li><mark class="critic">Understanding package.json &amp; node_modules</mark><ul>
+<li>Managing Dependencies</li>
+<li>npm Scripts Overview</li>
+<li>Peer Dependencies and Dev Dependencies</li>
+</ul>
+</li>
+<li><mark class="critic">Running and Building a React Application</mark><ul>
+<li>Development Server and Build Process</li>
+<li>Using Environment Variables in React</li>
+</ul>
+</li>
+<li><mark class="critic">Using Vite as an Alternative to CRA</mark><ul>
+<li>Benefits of Vite</li>
+<li>Setting Up Vite</li>
+<li>Performance Differences Between CRA and Vite</li>
+</ul>
+</li>
+</ul>
+<h2 id="3-understanding-jsx-javascript-xml"><ins class="critic">3. Understanding JSX (JavaScript XML)</ins></h2>
+<ul>
+<li><mark class="critic">What is JSX?</mark><ul>
+<li>Why JSX Exists</li>
+<li>Writing JSX Syntax</li>
+<li>JSX Compilation Process</li>
+</ul>
+</li>
+<li><mark class="critic">JSX Syntax and Expressions</mark><ul>
+<li>Embedding JavaScript Expressions</li>
+<li>Conditional Rendering with JSX</li>
+<li>Using Ternary Operators and Logical &amp;&amp;</li>
+</ul>
+</li>
+<li><mark class="critic">Embedding JavaScript in JSX</mark><ul>
+<li>Using Variables Inside JSX</li>
+<li>Inline Functions and Events</li>
+<li>Template Literals in JSX</li>
+</ul>
+</li>
+<li><mark class="critic">JSX vs HTML Differences</mark><ul>
+<li>Self-Closing Tags, ClassName, and Attributes</li>
+<li>Using Fragments in JSX</li>
+</ul>
+</li>
+<li><mark class="critic">React.createElement() Behind the Scenes</mark><ul>
+<li>JSX Transpilation</li>
+<li>Babel and Compilation Process</li>
+<li>How JSX Converts to React Elements</li>
+</ul>
+</li>
+</ul>
+<h2 id="4-react-components"><ins class="critic">4. React Components</ins></h2>
+<ul>
+<li><mark class="critic">Functional Components</mark><ul>
+<li>Stateless Components</li>
+<li>Writing Function-Based Components</li>
+<li>Arrow Functions vs Regular Functions in Components</li>
+</ul>
+</li>
+<li><mark class="critic">Class Components</mark><ul>
+<li>Understanding Component Classes</li>
+<li>Lifecycle Methods in Class Components</li>
+</ul>
+</li>
+<li><mark class="critic">Props and Prop Drilling</mark><ul>
+<li>Passing Data Between Components</li>
+<li>Avoiding Prop Drilling with Context API</li>
+<li>Default Props and PropTypes</li>
+</ul>
+</li>
+<li><mark class="critic">Component Reusability and Composition</mark><ul>
+<li>Best Practices for Reusable Components</li>
+<li>Composing Components</li>
+<li>Smart (Container) vs Dumb (Presentational) Components</li>
+</ul>
+</li>
+<li><mark class="critic">Stateless vs Stateful Components</mark><ul>
+<li>When to Use State in Components</li>
+<li>Converting Class Components to Functional Components</li>
+<li>State-driven UI Rendering</li>
+</ul>
+</li>
+<li><mark class="critic">Default and Named Exports in Components</mark><ul>
+<li>Exporting and Importing Components Correctly</li>
+<li>Common Mistakes with Import/Export</li>
+</ul>
+</li>
+<li><mark class="critic">Dynamic Rendering with Props</mark><ul>
+<li>Using Props to Change Component Behavior</li>
+<li>Conditional Rendering Based on Props</li>
+</ul>
+</li>
+<li><mark class="critic">Higher-Order Components (HOC)</mark><ul>
+<li>What are HOCs?</li>
+<li>Implementing an HOC</li>
+<li>Common Use Cases for HOCs</li>
+<li>Alternatives to HOCs (Render Props, Hooks)</li>
+</ul>
+</li>
+</ul>
+<h2 id="5-react-state-and-data-management"><ins class="critic">5. React State and Data Management</ins></h2>
+<ul>
+<li><mark class="critic">Understanding State in React</mark><ul>
+<li>What is State?</li>
+<li>State vs Props</li>
+<li>Why State is Immutable</li>
+</ul>
+</li>
+<li><mark class="critic">useState Hook for State Management</mark><ul>
+<li>Using useState to Handle Local State</li>
+<li>Functional Updates in useState</li>
+</ul>
+</li>
+<li><mark class="critic">Class Component State vs Functional Component State</mark><ul>
+<li>Managing State in Class Components</li>
+<li>Managing State in Functional Components with Hooks</li>
+<li>Migrating from Class to Functional Components</li>
+</ul>
+</li>
+<li><mark class="critic">State Updates and Batch Processing</mark><ul>
+<li>setState Behavior and Batch Updates</li>
+<li>Optimizing State Changes</li>
+<li>How React 18 Improves State Updates</li>
+</ul>
+</li>
+<li><mark class="critic">Lifting State Up for Shared State Management</mark><ul>
+<li>Why Lift State Up?</li>
+<li>Sharing State Between Components</li>
+<li>When to Use Context API vs Lifting State Up</li>
+</ul>
+</li>
+<li><mark class="critic">Derived State from Props</mark><ul>
+<li>When to Derive State from Props</li>
+<li>Avoiding Anti-Patterns</li>
+<li>Memoization for Derived State</li>
+</ul>
+</li>
+<li><mark class="critic">React Context API for Global State Management</mark><ul>
+<li>Creating and Using Context Providers</li>
+<li>Avoiding Unnecessary Renders with useMemo</li>
+<li>When to Use Context vs Redux</li>
+</ul>
+</li>
+<li><mark class="critic">Advanced State Management Patterns</mark><ul>
+<li>State Reducers with useReducer Hook</li>
+<li>Using Custom Hooks for State Management</li>
+<li>Comparison of Context API vs Redux vs Zustand</li>
+</ul>
+</li>
+</ul>
+<h2 id="6-handling-events-in-react"><ins class="critic">6. Handling Events in React</ins></h2>
+<ul>
+<li><mark class="critic">Adding Event Listeners in JSX</mark><ul>
+<li>Handling Click Events</li>
+<li>Handling Keyboard Events</li>
+<li>Handling Form Events</li>
+</ul>
+</li>
+<li><mark class="critic">Handling Events with Functions</mark><ul>
+<li>Inline Event Handlers</li>
+<li>Function References as Event Handlers</li>
+</ul>
+</li>
+<li><mark class="critic">Synthetic Events in React</mark><ul>
+<li>What are Synthetic Events?</li>
+<li>Differences Between Synthetic and Native Events</li>
+<li>event.persist()</li>
+</ul>
+</li>
+<li><mark class="critic">Event Binding Methods (Arrow Functions, bind())</mark><ul>
+<li>Using Arrow Functions</li>
+<li>Using bind() in Constructor</li>
+<li>Performance Considerations</li>
+</ul>
+</li>
+<li><mark class="critic">Passing Arguments to Event Handlers</mark><ul>
+<li>Using Inline Functions</li>
+<li>Using bind() Method</li>
+</ul>
+</li>
+<li><mark class="critic">Preventing Default Behavior and Event Bubbling</mark><ul>
+<li>Preventing Default Actions (e.g., form submission, links)</li>
+<li>Stopping Event Propagation</li>
+<li>Event Delegation in React</li>
+</ul>
+</li>
+</ul>
+<h2 id="7-react-hooks-fundamentals-advanced"><ins class="critic">7. React Hooks (Fundamentals &amp; Advanced)</ins></h2>
+<ul>
+<li><mark class="critic">Introduction to Hooks</mark><ul>
+<li>Why Hooks Were Introduced</li>
+<li>Rules of Hooks</li>
+<li>Migrating from Class Components to Hooks</li>
+</ul>
+</li>
+<li><mark class="critic">useState Hook</mark><ul>
+<li>Initializing State</li>
+<li>Updating State Correctly</li>
+<li>Functional Updates</li>
+<li>Lazy Initialization</li>
+</ul>
+</li>
+<li><mark class="critic">useEffect Hook</mark><ul>
+<li>Running Side Effects After Rendering</li>
+<li>Cleaning Up Effects</li>
+<li>Dependencies in useEffect</li>
+<li>Avoiding Infinite Loops</li>
+</ul>
+</li>
+<li><mark class="critic">useRef Hook</mark><ul>
+<li>Accessing DOM Elements</li>
+<li>Persisting Values Without Re-renders</li>
+<li>Storing Previous State Values</li>
+</ul>
+</li>
+<li><mark class="critic">useContext Hook</mark><ul>
+<li>Consuming Context Without Wrapper Components</li>
+<li>Avoiding Prop Drilling</li>
+<li>Best Practices for Context API</li>
+</ul>
+</li>
+<li><mark class="critic">useReducer Hook</mark><ul>
+<li>Alternative to useState for Complex State</li>
+<li>Understanding Actions and Reducers</li>
+<li>Combining Reducers</li>
+</ul>
+</li>
+<li><mark class="critic">useMemo Hook</mark><ul>
+<li>Performance Optimization for Expensive Calculations</li>
+<li>Dependency Array Best Practices</li>
+</ul>
+</li>
+<li><mark class="critic">useCallback Hook</mark><ul>
+<li>Preventing Unnecessary Function Re-Creation</li>
+<li>Memoizing Callback Functions</li>
+</ul>
+</li>
+<li><mark class="critic">Custom Hooks in React</mark><ul>
+<li>When to Create Custom Hooks</li>
+<li>Sharing Logic Between Components</li>
+<li>Best Practices for Custom Hooks</li>
+</ul>
+</li>
+</ul>
+<h2 id="8-react-forms-and-form-handling"><ins class="critic">8. React Forms and Form Handling</ins></h2>
+<ul>
+<li><mark class="critic">Controlled Components vs Uncontrolled Components</mark><ul>
+<li>What are Controlled Components?</li>
+<li>Managing Input State</li>
+<li>Using Refs for Uncontrolled Components</li>
+</ul>
+</li>
+<li><mark class="critic">Handling Form Submission</mark><ul>
+<li>Using onSubmit Event</li>
+<li>Preventing Default Behavior</li>
+<li>Handling Async Submissions</li>
+</ul>
+</li>
+<li><mark class="critic">Handling Multiple Inputs</mark><ul>
+<li>Using a Single Handler Function</li>
+<li>Managing State for Multiple Inputs</li>
+</ul>
+</li>
+<li><mark class="critic">Validation in Forms</mark><ul>
+<li>Client-Side Form Validation</li>
+<li>Custom Validation Functions</li>
+<li>Displaying Validation Messages</li>
+</ul>
+</li>
+<li><mark class="critic">React Hook Form Library</mark><ul>
+<li>Benefits of React Hook Form</li>
+<li>Registering Inputs</li>
+<li>Handling Errors</li>
+</ul>
+</li>
+<li><mark class="critic">Third-party Form Libraries (Formik, Yup)</mark><ul>
+<li>Setting Up Formik</li>
+<li>Schema Validation with Yup</li>
+<li>Handling Form Submission with Formik</li>
+</ul>
+</li>
+</ul>
+<h2 id="9-react-router-navigation-in-react"><ins class="critic">9. React Router (Navigation in React)</ins></h2>
+<ul>
+<li><mark class="critic">Introduction to React Router</mark><ul>
+<li>Why Use a Router?</li>
+<li>Key Features of React Router</li>
+</ul>
+</li>
+<li><mark class="critic">Setting Up React Router</mark><ul>
+<li>Installing React Router</li>
+<li>Configuring BrowserRouter</li>
+</ul>
+</li>
+<li><mark class="critic">Route, Switch, and Link Components</mark><ul>
+<li>Defining Routes</li>
+<li>Navigating with Link and NavLink</li>
+<li>Using Switch for Exclusive Routes</li>
+</ul>
+</li>
+<li><mark class="critic">Dynamic Routing &amp; Nested Routes</mark><ul>
+<li>Creating Dynamic Routes with URL Parameters</li>
+<li>Rendering Nested Routes</li>
+<li>Using useParams Hook</li>
+</ul>
+</li>
+<li><mark class="critic">Programmatic Navigation (useNavigate, useHistory)</mark><ul>
+<li>Navigating Programmatically</li>
+<li>Using useNavigate in React Router v6</li>
+<li>Handling Navigation State</li>
+</ul>
+</li>
+<li><mark class="critic">Redirects and 404 Handling</mark><ul>
+<li>Implementing Redirects</li>
+<li>Handling 404 Pages</li>
+<li>Custom Error Pages</li>
+</ul>
+</li>
+<li><mark class="critic">Protected Routes &amp; Authentication Handling</mark><ul>
+<li>Creating Protected Routes</li>
+<li>Implementing Authentication and Authorization</li>
+<li>Redirecting Unauthorized Users</li>
+</ul>
+</li>
+</ul>
+<h2 id="10-state-management-in-react"><ins class="critic">10. State Management in React</ins></h2>
+<h3 id="1-context-api-and-usecontext-hook"><mark class="critic">1. Context API and useContext Hook</mark></h3>
+<ul>
+<li>What is Context API?</li>
+<li>When to Use Context API</li>
+<li>Creating a Context</li>
+<li>Providing and Consuming Context</li>
+<li>Using useContext Hook</li>
+<li>Avoiding Performance Issues with Context API</li>
+<li>Optimizing Context API with useMemo</li>
+</ul>
+<h3 id="2-when-to-use-context-api-vs-other-solutions"><mark class="critic">2. When to Use Context API vs Other Solutions</mark></h3>
+<ul>
+<li>Small-Scale vs Large-Scale Applications</li>
+<li>When Context API is Sufficient</li>
+<li>When to Use Redux or Other State Management Libraries</li>
+<li>Performance Considerations and Trade-offs</li>
+</ul>
+<h3 id="3-prop-drilling-vs-context-api"><mark class="critic">3. Prop Drilling vs Context API</mark></h3>
+<ul>
+<li>What is Prop Drilling?</li>
+<li>How Context API Solves Prop Drilling</li>
+<li>Alternatives to Context API (Component Composition, Render Props)</li>
+<li>Best Practices for Avoiding Unnecessary Re-renders</li>
+</ul>
+<h3 id="4-redux-state-management"><mark class="critic">4. Redux (State Management)</mark></h3>
+<h4 id="41-introduction-to-redux"><mark class="critic">4.1 Introduction to Redux</mark></h4>
+<ul>
+<li>What is Redux?</li>
+<li>Why Use Redux?</li>
+<li>Redux Principles (Single Source of Truth, Read-Only State, Pure Functions)</li>
+<li>Comparing Redux with Context API</li>
+</ul>
+<h4 id="42-redux-store-actions-and-reducers"><mark class="critic">4.2 Redux Store, Actions, and Reducers</mark></h4>
+<ul>
+<li>Creating a Redux Store</li>
+<li>Defining Actions and Action Creators</li>
+<li>Writing Reducers</li>
+<li>Dispatching Actions</li>
+<li>Understanding Immutability in Redux</li>
+<li>Structuring Redux State</li>
+</ul>
+<h4 id="43-connecting-redux-with-react"><mark class="critic">4.3 Connecting Redux with React</mark></h4>
+<ul>
+<li>Installing Redux and React-Redux</li>
+<li>Using Provider and Store</li>
+<li>Connecting Components with useSelector and useDispatch</li>
+<li>Using mapStateToProps and mapDispatchToProps (Class Components)</li>
+<li>Optimizing Performance with Reselect</li>
+</ul>
+<h4 id="44-middleware-in-redux-redux-thunk-redux-saga"><mark class="critic">4.4 Middleware in Redux (Redux Thunk &amp; Redux Saga)</mark></h4>
+<ul>
+<li>What is Middleware?</li>
+<li>Introduction to Redux Thunk<ul>
+<li>Handling Asynchronous Logic</li>
+<li>Dispatching Multiple Actions</li>
+<li>Fetching Data with Redux Thunk</li>
+</ul>
+</li>
+<li>Introduction to Redux Saga<ul>
+<li>Understanding Generators in JavaScript</li>
+<li>Creating Sagas for Side Effects</li>
+<li>Handling API Calls and Side Effects</li>
+</ul>
+</li>
+</ul>
+<h3 id="5-zustand-recoil-alternative-state-management"><mark class="critic">5. Zustand &amp; Recoil (Alternative State Management)</mark></h3>
+<h4 id="51-zustand"><mark class="critic">5.1 Zustand</mark></h4>
+<ul>
+<li>What is Zustand?</li>
+<li>Advantages of Zustand Over Redux</li>
+<li>Creating a Zustand Store</li>
+<li>Managing State in a Minimalist Way</li>
+<li>Using Middleware with Zustand</li>
+</ul>
+<h4 id="52-recoil"><mark class="critic">5.2 Recoil</mark></h4>
+<ul>
+<li>Introduction to Recoil</li>
+<li>Atoms and Selectors in Recoil</li>
+<li>Using Recoil State in Components</li>
+<li>Managing Global State with Recoil</li>
+<li>Performance Benefits of Recoil</li>
+</ul>
+<h3 id="6-mobx-for-state-management"><mark class="critic">6. MobX for State Management</mark></h3>
+<ul>
+<li>Introduction to MobX</li>
+<li>MobX vs Redux</li>
+<li>Observables and Actions in MobX</li>
+<li>Using MobX in React Components</li>
+<li>Best Practices for MobX State Management</li>
+</ul>
+<p>This comprehensive guide covers multiple state management solutions in React, ensuring a solid understanding of different approaches.</p>
+<h2 id="11-react-styling-techniques"><ins class="critic">11. React Styling Techniques</ins></h2>
+<h3 id="1-css-in-react"><mark class="critic">1. CSS in React</mark></h3>
+<ul>
+<li>Inline Styles in React<ul>
+<li>How to Apply Inline Styles</li>
+<li>Pros and Cons of Inline Styles</li>
+<li>Handling Dynamic Styles with Inline Styles</li>
+</ul>
+</li>
+<li>External CSS Stylesheets<ul>
+<li>Importing and Using External CSS Files</li>
+<li>Structuring CSS for Large Projects</li>
+<li>Naming Conventions (BEM, SMACSS)</li>
+</ul>
+</li>
+<li>CSS Modules<ul>
+<li>What are CSS Modules?</li>
+<li>Using CSS Modules in React</li>
+<li>Scope Isolation and Benefits</li>
+</ul>
+</li>
+</ul>
+<h3 id="2-styled-components-css-in-js"><mark class="critic">2. Styled Components (CSS-in-JS)</mark></h3>
+<ul>
+<li>Introduction to Styled Components</li>
+<li>Installing and Setting Up Styled Components</li>
+<li>Writing Styled Components</li>
+<li>Using Props to Modify Styles Dynamically</li>
+<li>Theming with Styled Components</li>
+<li>Global Styles in Styled Components</li>
+<li>Best Practices for Styled Components</li>
+</ul>
+<h3 id="3-tailwind-css-with-react"><mark class="critic">3. Tailwind CSS with React</mark></h3>
+<ul>
+<li>What is Tailwind CSS?</li>
+<li>Installing Tailwind CSS in a React Project</li>
+<li>Using Utility Classes for Styling</li>
+<li>Customizing Tailwind Configurations</li>
+<li>Optimizing Performance with PurgeCSS</li>
+<li>Comparing Tailwind with Traditional CSS Approaches</li>
+</ul>
+<h3 id="4-emotionjs-for-css-in-js"><mark class="critic">4. Emotion.js for CSS-in-JS</mark></h3>
+<ul>
+<li>Introduction to Emotion.js</li>
+<li>Setting Up Emotion in React</li>
+<li>Writing CSS with Emotion</li>
+<li>Theming with Emotion</li>
+<li>Performance Considerations with Emotion</li>
+</ul>
+<h3 id="5-bootstrap-material-ui-with-react"><mark class="critic">5. Bootstrap &amp; Material UI with React</mark></h3>
+<ul>
+<li>Installing and Using Bootstrap in React</li>
+<li>Using Material UI Components</li>
+<li>Customizing Bootstrap and Material UI Themes</li>
+<li>Performance Considerations for UI Libraries</li>
+<li>When to Use UI Component Libraries vs Custom Styling</li>
+</ul>
+<hr />
+<h2 id="12-react-performance-optimization"><ins class="critic">12. React Performance Optimization</ins></h2>
+<h3 id="1-reactmemo-for-component-optimization"><mark class="critic">1. React.memo for Component Optimization</mark></h3>
+<ul>
+<li>What is React.memo?</li>
+<li>When to Use React.memo</li>
+<li>Preventing Unnecessary Renders</li>
+<li>Limitations of React.memo</li>
+</ul>
+<h3 id="2-usecallback-usememo-hooks"><mark class="critic">2. useCallback &amp; useMemo Hooks</mark></h3>
+<ul>
+<li>How useCallback Prevents Unnecessary Function Recreation</li>
+<li>How useMemo Optimizes Computation-heavy Operations</li>
+<li>Practical Examples of useCallback and useMemo</li>
+<li>When Not to Use useCallback and useMemo</li>
+</ul>
+<h3 id="3-lazy-loading-react-suspense"><mark class="critic">3. Lazy Loading &amp; React Suspense</mark></h3>
+<ul>
+<li>What is Lazy Loading?</li>
+<li>Implementing React.lazy for Component Splitting</li>
+<li>Using Suspense for Fallback UI</li>
+<li>Best Practices for Lazy Loading</li>
+</ul>
+<h3 id="4-code-splitting-dynamic-imports"><mark class="critic">4. Code Splitting &amp; Dynamic Imports</mark></h3>
+<ul>
+<li>Introduction to Code Splitting</li>
+<li>Using React.lazy and Import() for Code Splitting</li>
+<li>Route-based Code Splitting with React Router</li>
+<li>Performance Benefits of Code Splitting</li>
+</ul>
+<h3 id="5-avoiding-unnecessary-re-renders"><mark class="critic">5. Avoiding Unnecessary Re-renders</mark></h3>
+<ul>
+<li>Understanding React's Reconciliation Process</li>
+<li>Key Techniques to Reduce Re-renders</li>
+<li>Using shouldComponentUpdate in Class Components</li>
+<li>Using PureComponent in Class Components</li>
+<li>Using React.memo and useMemo in Functional Components</li>
+<li>Avoiding Unnecessary State and Prop Changes</li>
+</ul>
+<h3 id="6-virtualization-with-react-virtualized"><mark class="critic">6. Virtualization with React Virtualized</mark></h3>
+<ul>
+<li>What is Virtualization?</li>
+<li>Using React Virtualized for Large Lists</li>
+<li>Windowing for Performance Optimization</li>
+<li>When to Use Virtualization</li>
+</ul>
+<h2 id="13-react-server-side-rendering-ssr-static-site-generation-ssg"><ins class="critic">13. React Server-Side Rendering (SSR) &amp; Static Site Generation (SSG)</ins></h2>
+<h3 id="1-introduction-to-ssr-ssg"><mark class="critic">1. Introduction to SSR &amp; SSG</mark></h3>
+<ul>
+<li>Difference Between SSR, SSG, and CSR (Client-Side Rendering)</li>
+<li>Use Cases for SSR and SSG</li>
+<li>Performance Benefits and SEO Considerations</li>
+</ul>
+<h3 id="2-benefits-of-ssr-and-ssg"><mark class="critic">2. Benefits of SSR and SSG</mark></h3>
+<ul>
+<li>Improved SEO with Pre-rendering</li>
+<li>Faster Initial Page Load</li>
+<li>Caching and Performance Optimization</li>
+<li>Reduced Client-Side JavaScript Load</li>
+</ul>
+<h3 id="3-implementing-ssr-with-nextjs"><mark class="critic">3. Implementing SSR with Next.js</mark></h3>
+<ul>
+<li>What is Next.js?</li>
+<li>Setting Up a Next.js Project</li>
+<li>Using <code>getServerSideProps()</code> for Server Rendering</li>
+<li>Hydration and Client-Side Interactivity</li>
+<li>API Fetching in SSR Mode</li>
+<li>Common Pitfalls and Debugging SSR Issues</li>
+</ul>
+<h3 id="4-static-site-generation-ssg-with-nextjs"><mark class="critic">4. Static Site Generation (SSG) with Next.js</mark></h3>
+<ul>
+<li>What is SSG and How It Works?</li>
+<li>Using <code>getStaticProps()</code> for Static Site Generation</li>
+<li>Incremental Static Regeneration (ISR)</li>
+<li>Combining SSG with Client-Side Rendering</li>
+<li>Best Practices for Static Sites</li>
+</ul>
+<h3 id="5-api-routes-in-nextjs"><mark class="critic">5. API Routes in Next.js</mark></h3>
+<ul>
+<li>Creating API Endpoints in Next.js</li>
+<li>Serverless Functions in Next.js</li>
+<li>Authentication and Middleware in API Routes</li>
+<li>Fetching Data from API Routes in Next.js</li>
+<li>Deployment Considerations for API Routes</li>
+</ul>
+<hr />
+<h2 id="14-api-calls-in-react"><ins class="critic">14. API Calls in React</ins></h2>
+<h3 id="1-fetch-api-vs-axios-for-http-requests"><mark class="critic">1. Fetch API vs Axios for HTTP Requests</mark></h3>
+<ul>
+<li>Introduction to Fetch API</li>
+<li>Using Axios for API Requests</li>
+<li>Pros and Cons of Fetch API vs Axios</li>
+<li>Setting Up Axios Interceptors</li>
+</ul>
+<h3 id="2-handling-promises-asyncawait"><mark class="critic">2. Handling Promises &amp; Async/Await</mark></h3>
+<ul>
+<li>Using Promises with <code>.then()</code></li>
+<li>Writing Asynchronous Code with <code>async/await</code></li>
+<li>Error Handling in Async Functions</li>
+<li>Best Practices for Handling API Calls</li>
+</ul>
+<h3 id="3-useeffect-with-api-calls"><mark class="critic">3. useEffect with API Calls</mark></h3>
+<ul>
+<li>Fetching Data Inside <code>useEffect</code></li>
+<li>Dependency Array and Performance Considerations</li>
+<li>Cleanup Functions in API Calls</li>
+<li>Preventing Memory Leaks with API Calls</li>
+</ul>
+<h3 id="4-handling-api-errors-and-loading-states"><mark class="critic">4. Handling API Errors and Loading States</mark></h3>
+<ul>
+<li>Error Handling Best Practices</li>
+<li>Showing Loading Spinners and Skeleton UI</li>
+<li>Implementing Retry Logic for API Requests</li>
+<li>Handling Rate Limits and API Throttling</li>
+</ul>
+<h3 id="5-caching-api-responses-with-swr-and-react-query"><mark class="critic">5. Caching API Responses with SWR and React Query</mark></h3>
+<ul>
+<li>What is SWR (Stale-While-Revalidate)?</li>
+<li>Fetching and Caching Data with SWR</li>
+<li>Introduction to React Query</li>
+<li>Optimistic UI Updates with React Query</li>
+<li>Comparison of SWR vs React Query</li>
+</ul>
+<h3 id="6-working-with-graphql-apis-in-react-apollo-client"><mark class="critic">6. Working with GraphQL APIs in React (Apollo Client)</mark></h3>
+<ul>
+<li>Introduction to GraphQL</li>
+<li>Setting Up Apollo Client in React</li>
+<li>Fetching Data with <code>useQuery</code> and <code>useMutation</code></li>
+<li>Using Apollo Cache for State Management</li>
+<li>Subscriptions with GraphQL and Apollo Client</li>
+</ul>
+<hr />
+<h2 id="15-react-and-authentication"><ins class="critic">15. React and Authentication</ins></h2>
+<h3 id="1-authentication-strategies-jwt-oauth-firebase-auth"><mark class="critic">1. Authentication Strategies (JWT, OAuth, Firebase Auth)</mark></h3>
+<ul>
+<li>Introduction to Authentication Strategies</li>
+<li>Comparing JWT, OAuth, and Firebase Authentication</li>
+<li>Pros and Cons of Different Authentication Methods</li>
+</ul>
+<h3 id="2-implementing-user-authentication-in-react"><mark class="critic">2. Implementing User Authentication in React</mark></h3>
+<ul>
+<li>Authentication Flow in React Applications</li>
+<li>Using Context API for Authentication State</li>
+<li>Implementing Private and Protected Routes</li>
+<li>Managing Authentication Tokens Securely</li>
+</ul>
+<h3 id="3-using-firebase-authentication"><mark class="critic">3. Using Firebase Authentication</mark></h3>
+<ul>
+<li>Setting Up Firebase in a React App</li>
+<li>Firebase Email &amp; Password Authentication</li>
+<li>Google, Facebook, and GitHub Authentication with Firebase</li>
+<li>Storing User Data in Firebase Firestore</li>
+<li>Handling Authentication State with Firebase</li>
+</ul>
+<h3 id="4-session-management-cookies"><mark class="critic">4. Session Management &amp; Cookies</mark></h3>
+<ul>
+<li>Storing Tokens in Local Storage vs Cookies</li>
+<li>HTTP-only Cookies for Secure Authentication</li>
+<li>Implementing Token Refresh Mechanisms</li>
+<li>Handling Auto-Logout and Expired Sessions</li>
+</ul>
+<h3 id="5-role-based-access-control-rbac"><mark class="critic">5. Role-Based Access Control (RBAC)</mark></h3>
+<ul>
+<li>What is RBAC?</li>
+<li>Defining User Roles and Permissions</li>
+<li>Implementing Role-Based Access in React Components</li>
+<li>Securing API Endpoints with User Roles</li>
+</ul>
+<h3 id="6-oauth2-authentication-google-facebook-github-login"><mark class="critic">6. OAuth2 Authentication (Google, Facebook, GitHub Login)</mark></h3>
+<ul>
+<li>Introduction to OAuth2 Authentication</li>
+<li>Setting Up OAuth with Google, Facebook, and GitHub</li>
+<li>Handling OAuth Tokens and User Sessions</li>
+<li>Securing OAuth Authentication in React</li>
+<li>Best Practices for OAuth Integration</li>
+</ul>
+<h2 id="16-react-testing-and-debugging"><ins class="critic">16. React Testing and Debugging</ins></h2>
+<h3 id="introduction-to-testing-in-react"><mark class="critic">Introduction to Testing in React</mark></h3>
+<ul>
+<li>Importance of Testing in React Applications</li>
+<li>Types of Testing: Unit, Integration, and E2E</li>
+</ul>
+<h3 id="unit-testing-with-jest"><mark class="critic">Unit Testing with Jest</mark></h3>
+<ul>
+<li>Setting Up Jest in a React Project</li>
+<li>Writing and Running Basic Unit Tests</li>
+<li>Mocking Functions and Modules</li>
+<li>Snapshot Testing with Jest</li>
+</ul>
+<h3 id="react-testing-library"><mark class="critic">React Testing Library</mark></h3>
+<ul>
+<li>Why Use React Testing Library?</li>
+<li>Rendering Components for Testing</li>
+<li>Simulating User Events</li>
+<li>Asserting DOM Changes</li>
+<li>Testing Asynchronous Operations</li>
+</ul>
+<h3 id="enzyme-for-component-testing"><mark class="critic">Enzyme for Component Testing</mark></h3>
+<ul>
+<li>Introduction to Enzyme</li>
+<li>Shallow Rendering vs Full Rendering</li>
+<li>Simulating Events and Interactions</li>
+<li>Comparing Enzyme with React Testing Library</li>
+</ul>
+<h3 id="end-to-end-e2e-testing-with-cypress"><mark class="critic">End-to-End (E2E) Testing with Cypress</mark></h3>
+<ul>
+<li>Introduction to Cypress</li>
+<li>Setting Up Cypress in React</li>
+<li>Writing Basic E2E Tests</li>
+<li>Testing Navigation and Form Submissions</li>
+<li>Mocking API Responses in Cypress</li>
+</ul>
+<h3 id="debugging-react-applications-with-react-developer-tools"><mark class="critic">Debugging React Applications with React Developer Tools</mark></h3>
+<ul>
+<li>Installing React Developer Tools</li>
+<li>Inspecting Components and State</li>
+<li>Debugging Performance Issues</li>
+<li>Profiling Component Renders</li>
+</ul>
+<hr />
+<h2 id="17-websockets-and-real-time-applications"><ins class="critic">17. WebSockets and Real-Time Applications</ins></h2>
+<h3 id="introduction-to-websockets"><mark class="critic">Introduction to WebSockets</mark></h3>
+<ul>
+<li>What Are WebSockets?</li>
+<li>How WebSockets Work</li>
+<li>Advantages of Using WebSockets</li>
+</ul>
+<h3 id="integrating-socketio-with-react"><mark class="critic">Integrating Socket.io with React</mark></h3>
+<ul>
+<li>Setting Up Socket.io in a React Project</li>
+<li>Connecting to a WebSocket Server</li>
+<li>Sending and Receiving Messages</li>
+</ul>
+<h3 id="building-a-real-time-chat-app-with-websockets"><mark class="critic">Building a Real-time Chat App with WebSockets</mark></h3>
+<ul>
+<li>Designing the Chat UI</li>
+<li>Handling Incoming and Outgoing Messages</li>
+<li>Broadcasting Messages to Multiple Clients</li>
+<li>Storing Chat History</li>
+</ul>
+<h3 id="websocket-events-and-state-management"><mark class="critic">WebSocket Events and State Management</mark></h3>
+<ul>
+<li>Handling WebSocket Events in React</li>
+<li>Using useEffect for WebSocket Connections</li>
+<li>Managing WebSocket State Efficiently</li>
+</ul>
+<h3 id="polling-vs-websockets-vs-server-sent-events-sse"><mark class="critic">Polling vs WebSockets vs Server-Sent Events (SSE)</mark></h3>
+<ul>
+<li>Differences Between Polling, WebSockets, and SSE</li>
+<li>When to Use Each Approach</li>
+<li>Performance Considerations for Real-time Applications</li>
+</ul>
+<hr />
+<h2 id="18-react-progressive-web-apps-pwas"><ins class="critic">18. React Progressive Web Apps (PWAs)</ins></h2>
+<h3 id="what-are-pwas"><mark class="critic">What are PWAs?</mark></h3>
+<ul>
+<li>Definition and Characteristics</li>
+<li>Benefits of Building PWAs</li>
+</ul>
+<h3 id="adding-service-workers-in-react"><mark class="critic">Adding Service Workers in React</mark></h3>
+<ul>
+<li>What is a Service Worker?</li>
+<li>Registering a Service Worker in React</li>
+<li>Lifecycle of a Service Worker</li>
+</ul>
+<h3 id="offline-support-in-react-apps"><mark class="critic">Offline Support in React Apps</mark></h3>
+<ul>
+<li>Caching Assets for Offline Access</li>
+<li>Handling Offline Requests</li>
+<li>Implementing Offline Fallbacks</li>
+</ul>
+<h3 id="caching-and-background-sync"><mark class="critic">Caching and Background Sync</mark></h3>
+<ul>
+<li>Using Cache API for Asset Caching</li>
+<li>Background Sync for Deferred Requests</li>
+<li>Strategies for Managing Cached Data</li>
+</ul>
+<h3 id="web-push-notifications-in-react"><mark class="critic">Web Push Notifications in React</mark></h3>
+<ul>
+<li>Introduction to Web Push Notifications</li>
+<li>Setting Up Push Notifications in React</li>
+<li>Sending Push Notifications via a Server</li>
+<li>Handling Push Events in Service Workers</li>
+</ul>
+<h2 id="19-react-native-mobile-development-with-react"><ins class="critic">19. React Native (Mobile Development with React)</ins></h2>
+<h3 id="introduction-to-react-native"><mark class="critic">Introduction to React Native</mark></h3>
+<ul>
+<li>What is React Native?</li>
+<li>Benefits of React Native for Mobile Development</li>
+<li>Differences Between React Native and Native Development (Swift/Kotlin)</li>
+</ul>
+<h3 id="react-native-vs-reactjs"><mark class="critic">React Native vs React.js</mark></h3>
+<ul>
+<li>Key Differences in Development Approach</li>
+<li>Shared Concepts Between React and React Native</li>
+<li>Platform-Specific Features and Limitations</li>
+</ul>
+<h3 id="setting-up-react-native-environment"><mark class="critic">Setting up React Native Environment</mark></h3>
+<ul>
+<li>Installing Node.js and npm</li>
+<li>Setting Up React Native CLI</li>
+<li>Using Expo for Easier Development</li>
+<li>Running React Native Apps on Emulator and Physical Devices</li>
+</ul>
+<h3 id="building-components-in-react-native"><mark class="critic">Building Components in React Native</mark></h3>
+<ul>
+<li>Understanding React Native Components (View, Text, Image, ScrollView, etc.)</li>
+<li>Styling Components in React Native (Flexbox, Stylesheets)</li>
+<li>Handling User Inputs with TextInput, Buttons, and Touchables</li>
+<li>Using Platform-Specific Code (Platform API)</li>
+</ul>
+<h3 id="react-navigation-for-mobile-apps"><mark class="critic">React Navigation for Mobile Apps</mark></h3>
+<ul>
+<li>Introduction to React Navigation</li>
+<li>Setting Up Navigation Stack</li>
+<li>Tab Navigation vs Drawer Navigation</li>
+<li>Passing Data Between Screens</li>
+<li>Handling Deep Linking and Navigation Events</li>
+</ul>
+<h3 id="expo-vs-react-native-cli"><mark class="critic">Expo vs React Native CLI</mark></h3>
+<ul>
+<li>What is Expo and When to Use It?</li>
+<li>Advantages and Limitations of Expo</li>
+<li>Bare Workflow vs Managed Workflow</li>
+</ul>
+<hr />
+<h2 id="20-react-deployment-and-devops"><ins class="critic">20. React Deployment and DevOps</ins></h2>
+<h3 id="deploying-react-apps-on-vercel-netlify"><mark class="critic">Deploying React Apps on Vercel &amp; Netlify</mark></h3>
+<ul>
+<li>Setting Up Continuous Deployment with Vercel</li>
+<li>Deploying a React App to Netlify</li>
+<li>Configuring Environment Variables on Vercel &amp; Netlify</li>
+</ul>
+<h3 id="deploying-react-apps-on-firebase-hosting"><mark class="critic">Deploying React Apps on Firebase Hosting</mark></h3>
+<ul>
+<li>Introduction to Firebase Hosting</li>
+<li>Deploying a React App to Firebase</li>
+<li>Setting Up Custom Domains and SSL in Firebase</li>
+</ul>
+<h3 id="deploying-react-apps-on-aws-amplify"><mark class="critic">Deploying React Apps on AWS Amplify</mark></h3>
+<ul>
+<li>Overview of AWS Amplify for React</li>
+<li>Connecting AWS Amplify to a React Project</li>
+<li>Configuring API Gateway and Authentication in Amplify</li>
+</ul>
+<h3 id="cicd-with-github-actions-for-react"><mark class="critic">CI/CD with GitHub Actions for React</mark></h3>
+<ul>
+<li>Introduction to CI/CD Pipelines</li>
+<li>Setting Up GitHub Actions for Automated Deployments</li>
+<li>Running Tests and Linting Before Deployment</li>
+</ul>
+<h3 id="dockerizing-a-react-application"><mark class="critic">Dockerizing a React Application</mark></h3>
+<ul>
+<li>Introduction to Docker and Containers</li>
+<li>Writing a Dockerfile for a React App</li>
+<li>Building and Running a React App in a Docker Container</li>
+<li>Deploying a Dockerized React App to AWS/GCP</li>
+</ul>
+<h3 id="performance-monitoring-with-lighthouse"><mark class="critic">Performance Monitoring with Lighthouse</mark></h3>
+<ul>
+<li>Using Google Lighthouse for Performance Audits</li>
+<li>Optimizing Load Time and Accessibility in React Apps</li>
+<li>Automating Lighthouse Reports in CI/CD Pipelines</li>
+</ul>
+<hr />
+<h2 id="21-advanced-react-topics"><ins class="critic">21. Advanced React Topics</ins></h2>
+<h3 id="micro-frontends-with-react"><mark class="critic">Micro Frontends with React</mark></h3>
+<ul>
+<li>What Are Micro Frontends?</li>
+<li>Implementing Micro Frontends in React Using Webpack Module Federation</li>
+<li>Advantages and Challenges of Micro Frontend Architecture</li>
+</ul>
+<h3 id="server-components-in-react-react-18"><mark class="critic">Server Components in React (React 18+)</mark></h3>
+<ul>
+<li>Introduction to Server Components</li>
+<li>How Server Components Differ from Client Components</li>
+<li>Building a Hybrid App with Server and Client Components</li>
+</ul>
+<h3 id="react-fiber-architecture"><mark class="critic">React Fiber Architecture</mark></h3>
+<ul>
+<li>What is React Fiber?</li>
+<li>Differences Between React Fiber and Legacy Reconciler</li>
+<li>How React Fiber Improves Performance</li>
+<li>Scheduling and Concurrency in React Fiber</li>
+</ul>
+<h3 id="webassembly-with-react"><mark class="critic">WebAssembly with React</mark></h3>
+<ul>
+<li>What is WebAssembly (WASM)?</li>
+<li>Using WebAssembly in a React Project</li>
+<li>Performance Benefits of WebAssembly with React</li>
+<li>Practical Use Cases of WebAssembly in React Applications</li>
+</ul>
+<h3 id="ai-machine-learning-with-reactjs"><mark class="critic">AI &amp; Machine Learning with React.js</mark></h3>
+<ul>
+<li>Using TensorFlow.js with React for ML Models</li>
+<li>Building AI-Powered UIs in React</li>
+<li>Integrating Chatbots and AI Assistants in React Apps</li>
+</ul>
+<h3 id="react-concurrent-mode-suspense-for-data-fetching"><mark class="critic">React Concurrent Mode &amp; Suspense for Data Fetching</mark></h3>
+<ul>
+<li>What is Concurrent Mode?</li>
+<li>Benefits of Using Concurrent Rendering</li>
+<li>Understanding Suspense for Data Fetching</li>
+<li>Implementing Streaming Server Rendering with React Suspense</li>
+</ul>
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"/></svg>
+  Back to top
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+    
+      
+      <nav class="md-footer__inner md-grid" aria-label="Footer" >
+        
+          
+          <a href="../.." class="md-footer__link md-footer__link--prev" aria-label="Previous: Home">
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+            </div>
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                Previous
+              </span>
+              <div class="md-ellipsis">
+                Home
+              </div>
+            </div>
+          </a>
+        
+        
+          
+          <a href="../1.Introduction%20to%20React/" class="md-footer__link md-footer__link--next" aria-label="Next: 1.Introduction to React">
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                Next
+              </span>
+              <div class="md-ellipsis">
+                1.Introduction to React
+              </div>
+            </div>
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11z"/></svg>
+            </div>
+          </a>
+        
+      </nav>
+    
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+    <div class="md-copyright__highlight">
+      Copyright &copy; 2024 S.Kumar
+    </div>
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+        <div class="md-social">
+  
+    
+    
+    
+    
+      
+      
+    
+    <a href="https://souravkumardash.vercel.app" target="_blank" rel="noopener" title="souravkumardash.vercel.app" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 17h-8v-1c0-1.33 2.67-2 4-2s4 .67 4 2m-4-7a2 2 0 0 1 2 2 2 2 0 0 1-2 2 2 2 0 0 1-2-2 2 2 0 0 1 2-2m5-3h-8l-2-2H4c-1.11 0-2 .89-2 2v12a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V8a2 2 0 0 0-2-2"/></svg>
+    </a>
+  
+    
+    
+    
+    
+      
+      
+    
+    <a href="https://www.linkedin.com/in/sourav183" target="_blank" rel="noopener" title="www.linkedin.com" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 3a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2zm-.5 15.5v-5.3a3.26 3.26 0 0 0-3.26-3.26c-.85 0-1.84.52-2.32 1.3v-1.11h-2.79v8.37h2.79v-4.93c0-.77.62-1.4 1.39-1.4a1.4 1.4 0 0 1 1.4 1.4v4.93zM6.88 8.56a1.68 1.68 0 0 0 1.68-1.68c0-.93-.75-1.69-1.68-1.69a1.69 1.69 0 0 0-1.69 1.69c0 .93.76 1.68 1.69 1.68m1.39 9.94v-8.37H5.5v8.37z"/></svg>
+    </a>
+  
+    
+    
+    
+    
+      
+      
+    
+    <a href="https://github.com/Captain-Rengoku" target="_blank" rel="noopener" title="github.com" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/></svg>
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+      <div class="md-progress" data-md-component="progress" role="progressbar"></div>
+    
+    
+    
+      
+      <script id="__config" type="application/json">{"base": "../..", "features": ["navigation.instant", "navigation.instant.progress", "toc.follow", "navigation.top", "navigation.tabs", "navigation.tabs.sticky", "navigation.tracking", "navigation.sections", "navigation.expand", "navigation.path", "navigation.prune", "navigation.indexes", "navigation.footer", "search.suggest", "search.highlight", "search.share", "content.code.copy", "content.code.annotate", "content.tooltips"], "search": "../../assets/javascripts/workers/search.d50fe291.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.50899def.min.js"></script>
+      
+    
+  <script id="init-glightbox">const lightbox = GLightbox({"touchNavigation": true, "loop": false, "zoomable": true, "draggable": true, "openEffect": "zoom", "closeEffect": "zoom", "slideEffect": "slide"});
+document$.subscribe(() => { lightbox.reload() });
+</script></body>
+</html>
